@@ -1,11 +1,13 @@
 # fun with log4shell and docker
 
 This repo to proof exploitation in latest java version exist too !
-Please do not rely on your java version to be safe and upgrade neo4j package !
+Please do not rely on your java version to be safe and upgrade log4j package !
 
 - vulnerable app from : https://github.com/christophetd/log4shell-vulnerable-app.git
 - vulnerability explained : https://mbechler.github.io/2021/12/10/PSA_Log4Shell_JNDI_Injection/
 
+- This is a POC of the exploitation of the CVE-2021-44228. 
+- Use it for local research and comprehension only and with the autorisation of the target.
 
 ## play 
 - launch the vulnerable app : `./start_vuln_server.sh`
